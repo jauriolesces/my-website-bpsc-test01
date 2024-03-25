@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
+  --link-color: #1d03e6;
   --link-hover-color: #136ff6;
   --background-color: rgb(255, 255, 255);
   --light-color: #eee;
@@ -145,7 +145,7 @@ a.button:any-link, button {
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
-  background-color: var(--link-color);
+  background-color: var(--link-color); /*color de botones*/
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -164,7 +164,7 @@ button:disabled, button:disabled:hover {
 }
 
 a.button.secondary, button.secondary {
-  background-color: unset;
+  background-color: unset; /*color de boton secundario*/
   border: 2px solid currentcolor;
   color: var(--text-color)
 }
